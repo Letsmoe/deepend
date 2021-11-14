@@ -2,6 +2,7 @@
 
 
 <div id="top"></div>
+![GitHub](https://img.shields.io/github/license/Letsmoe/deepend?label=License)
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
