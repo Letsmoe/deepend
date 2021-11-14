@@ -1,12 +1,12 @@
 # Deepend
 
 
-<div align="center">
-![](https://img.shields.io/github/license/Letsmoe/deepend?label=License)
-![](https://img.shields.io/github/issues/Letsmoe/deepend?label=Issues)
-![](https://img.shields.io/github/contributors/Letsmoe/deepend?label=Contributors)
-![](https://img.shields.io/github/stars/Letsmoe/deepend?label=Stars)
-![](https://img.shields.io/github/watchers/Letsmoe/deepend?label=Watchers)
+<div width="100%" align="center">
+    <img width="20%" alt="GitHub" src="https://img.shields.io/github/license/Letsmoe/deepend?label=License">
+    <img width="20%" alt="GitHub issues" src="https://img.shields.io/github/issues/Letsmoe/deepend?label=Issues">
+    <img width="20%" alt="GitHub contributors" src="https://img.shields.io/github/contributors/Letsmoe/deepend?label=Contributors">
+    <img width="20%" alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Letsmoe/deepend?label=Stars">
+    <img width="20%" alt="GitHub watchers" src="https://img.shields.io/github/watchers/Letsmoe/deepend?label=Watchers">
 </div>
 
 
