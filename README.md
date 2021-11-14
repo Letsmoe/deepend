@@ -2,11 +2,11 @@
 
 
 <div width="100%" align="center">
-    <img width="20%" alt="GitHub" src="https://img.shields.io/github/license/Letsmoe/deepend?label=License">
-    <img width="20%" alt="GitHub issues" src="https://img.shields.io/github/issues/Letsmoe/deepend?label=Issues">
-    <img width="20%" alt="GitHub contributors" src="https://img.shields.io/github/contributors/Letsmoe/deepend?label=Contributors">
-    <img width="20%" alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Letsmoe/deepend?label=Stars">
-    <img width="20%" alt="GitHub watchers" src="https://img.shields.io/github/watchers/Letsmoe/deepend?label=Watchers">
+    <img alt="GitHub" src="https://img.shields.io/github/license/Letsmoe/deepend?label=License">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/Letsmoe/deepend?label=Issues">
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Letsmoe/deepend?label=Contributors">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Letsmoe/deepend?label=Stars">
+    <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/Letsmoe/deepend?label=Watchers">
 </div>
 
 
@@ -15,7 +15,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Letsmoe/deepend">
-    <img src="images/logo.svg" alt="Logo" width="500" height="250">
+    <img src="images/logo-light.svg" alt="Logo" width="500" height="250">
   </a>
 
 
@@ -68,79 +68,53 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Letsmoe`, `deepend`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `Deepend`, `project_description`
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Letsmoe`, `deepend`, `Continu13798401`, `linkedin_username`, `email`, `email_client`, `Deepend`, `project_description`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-### Built With
-
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
+To start off, open a terminal and add Deepend from your preferred package manager, this will get you up and running in seconds. Deepend comes with some small [datasets](https://github.com/Letsmoe/deepend/main/src/datasets) already preinstalled, we offer you to download many more [from our website](https://continuum-ai.de/deepend/datasets) though and we entice you to take a look at [Kaggle](https://kaggle.com) datasets.
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+### Dependencies
+To run Deepend it is required that you have **NumPy** installed. The utilities module requires you to have **OpenCV** and **os** installed.
 
-### Prerequisites
+### pip
+```sh
+pip install deepend
+```
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+### Poetry
+```sh
+poetry add deepend
+```
 
-### Installation
+### First Contact
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/Letsmoe/deepend.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+Deepend is both a backend and frontend for creating machine learning models.
+Importing it is as simple as any other package. After you installed it from your package manager you can run 
+```python
+import deepend
+```
+This will get you everything deepend comes with, to be more specific you can import each module separately. Deepend comes with the following modules:
+```python
+import deepend.utils as utilities
+import deepend.activations as activations
+import deepend.models as models
+import deepend.losses as losses
+import deepend.metrics as metrics
+```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
+- [] LSTM Layers and GRU Cells
+- [] N-Dimensional Convolutional Layers
 
 See the [open issues](https://github.com/Letsmoe/deepend/issues) for a full list of proposed features (and known issues).
 
@@ -178,7 +152,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - [@Continu13798401](https://twitter.com/Continu13798401) - info@continuum-ai.de
 
 Project Link: [https://github.com/Letsmoe/deepend](https://github.com/Letsmoe/deepend)
 
