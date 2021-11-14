@@ -20,7 +20,7 @@
 
 
   <p align="center">
-    project_description
+    Deepend is an advanced end-to-end machine learning framework. It offers many <a href="https://continuum-ai.de/doc/deepend/utilities">tools</a>, and <a href="https://continuum-ai.de/doc/deepend/libraries">libraries</a> with a <a href="https://continuum-ai.de/deepend/gui">platform</a> that helps novices gain experience fast and offers researchers and community members all around the globe to publish their work and show their talents.
     <br />
     <a href="https://continuum-ai.de/doc/deepend/"><strong>Explore the docs »</strong></a>
     <br />
