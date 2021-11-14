@@ -10,7 +10,7 @@
 [![MIT License][license-shield]][https://img.shields.io/github/license/Letsmoe/deepend?label=License]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
+<img alt="GitHub" src="https://img.shields.io/github/license/Letsmoe/deepend?label=License">
 
 <!-- PROJECT LOGO -->
 <br />
