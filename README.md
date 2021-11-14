@@ -1,3 +1,6 @@
+# Deepend
+
+
 <div id="top"></div>
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -15,12 +18,11 @@
     <img src="images/logo.svg" alt="Logo" width="500" height="250">
   </a>
 
-<h3 align="center">Deepend</h3>
 
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/Letsmoe/deepend"><strong>Explore the docs »</strong></a>
+    <a href="https://continuum-ai.de/doc/deepend/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/Letsmoe/deepend">View Demo</a>
