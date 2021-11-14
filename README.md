@@ -2,12 +2,12 @@
 
 
 <div id="top"></div>
-[GitHub](https://img.shields.io/github/license/Letsmoe/deepend?label=License)
+![GitHub](https://img.shields.io/github/license/Letsmoe/deepend?label=License)
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![MIT License][license-shield]][https://img.shields.io/github/license/Letsmoe/deepend?label=License]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
