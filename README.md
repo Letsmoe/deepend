@@ -2,11 +2,11 @@
 
 
 <div align="center">
-    ![](https://img.shields.io/github/license/Letsmoe/deepend?label=License)
-    ![](https://img.shields.io/github/issues/Letsmoe/deepend?label=Issues)
-    ![](https://img.shields.io/github/contributors/Letsmoe/deepend?label=Contributors)
-    ![](https://img.shields.io/github/stars/Letsmoe/deepend?label=Stars)
-    ![](https://img.shields.io/github/watchers/Letsmoe/deepend?label=Watchers)
+![](https://img.shields.io/github/license/Letsmoe/deepend?label=License)
+![](https://img.shields.io/github/issues/Letsmoe/deepend?label=Issues)
+![](https://img.shields.io/github/contributors/Letsmoe/deepend?label=Contributors)
+![](https://img.shields.io/github/stars/Letsmoe/deepend?label=Stars)
+![](https://img.shields.io/github/watchers/Letsmoe/deepend?label=Watchers)
 </div>
 
 
