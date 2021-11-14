@@ -12,10 +12,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/Letsmoe/deepend">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Deepend</h3>
 
   <p align="center">
     project_description
@@ -66,7 +66,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Letsmoe`, `deepend`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Letsmoe`, `deepend`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `Deepend`, `project_description`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
