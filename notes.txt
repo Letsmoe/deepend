@@ -1,2 +1,3 @@
 Upload package by running:
+python -m build
 twine upload ./dist/* --config-file ./.pypirc
