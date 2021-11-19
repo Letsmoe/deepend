@@ -85,15 +85,10 @@ To run Deepend it is required that you have **NumPy** installed. The utilities m
 pip install deepend
 ```
 
-### Poetry
-```sh
-poetry add deepend
-```
-
 ### First Contact
 
 Deepend is both a backend and frontend for creating machine learning models.
-Importing it is as simple as any other package. After you installed it from your package manager you can run 
+Importing it is as simple as any other package. After you installed it from pip you can run 
 ```python
 import deepend
 ```
