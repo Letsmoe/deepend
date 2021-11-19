@@ -5,6 +5,15 @@ class Adam(Optimizer):
 
 	# Initialize optimizer - set settings
 	def __init__(self, learning_rate=0.001, decay=0., epsilon=1e-7, beta_1=0.9, beta_2=0.999):
+		"""Initializing the Adam Optimizer
+
+		Args:
+			learning_rate (float, optional): Step size of the optimizer. Defaults to 0.001.
+			decay (float, optional): Decay. Defaults to 0..
+			epsilon ([type], optional): [description]. Defaults to 1e-7.
+			beta_1 (float, optional): [description]. Defaults to 0.9.
+			beta_2 (float, optional): [description]. Defaults to 0.999.
+		"""
 		self.learning_rate = learning_rate
 		self.current_learning_rate = learning_rate
 		self.decay = decay
@@ -15,7 +24,11 @@ class Adam(Optimizer):
 
 	# Update parameters
 	def update_params(self, layer):
+		"""Updates the weights and biases of the passed layer
 
+		Args:
+			layer (deepend.layers.Layer): The layer to update the parameters of.
+		"""
 		# If layer does not contain cache arrays,
 		# create them filled with zeros
 		if not hasattr(layer, 'weight_cache'):

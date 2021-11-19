@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="deepend",
-    version="0.0.1",
+    version="0.0.2",
     author="Moritz Utcke",
     author_email="moritz.utcke@gmx.de",
     description="Advanced end-to-end machine learning framework.",

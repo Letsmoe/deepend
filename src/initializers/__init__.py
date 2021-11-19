@@ -4,19 +4,18 @@ import numpy as np
 
 class Initializer(object):
 	def get_config(self):
-		"""
-		Returns the config of the initializer as a dict:
-		{
-			"mean": None,
-			"stddev": 1,
-			"seed": 42
-		}
+		"""Used to get the configuration of the used initializer
+
+		Returns:
+			dict: Config of the initializer
 		"""
 		return self._config
 
 	def from_config(self, config):
-		"""
-		Configures the initializer as specified by the config.
+		"""Configures the initializer as specified by the config.
+
+		Args:
+			config (Initializer.config): Previously exported initializer configuration
 		"""
 		for (arg, val) in config:
 			self[arg] = val
