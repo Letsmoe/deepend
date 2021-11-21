@@ -2,15 +2,17 @@ import numpy as np
 from deepend.activations import activation_mapping, Activation
 from deepend.initializers import *
 
-"""
-	Define Main Layer Class
-	name -> Used in summary or to reference layer
-	dtype -> dtype of the layers weights
-"""
 class Layer(object):
 	# Define a global layer count dict to check how many instances have been created to assign a name.
 	layer_count = {}
-	def __init__(self, name=None, dtype=None, weight_initializer=None):
+	def __init__(self, name=None, dtype="float32", weight_initializer=RandomNormal):
+		"""Initializes a new layer object, can be inherited to provide additional support for user specified layers
+
+		Args:
+			name (str, optional): A name which will be used to identify the layer, auto generated if not specified. Defaults to None.
+			dtype (str, optional): Datatype of the layers properties. Defaults to float32.
+			weight_initializer (Initializer, optional): Custom weight initialization function. Defaults to RandomNormal.
+		"""
 		# ------------------ Check if a name was assigned by user ------------------ #
 		if name:
 			self.name = name
@@ -31,7 +33,7 @@ class Layer(object):
 			self.weights.dtype = dtype
 
 
-	def construct_activation(self, activation):
+	def _construct_activation(self, activation):
 		if type(activation) == str:
 			self.activation = activation_mapping[activation.lower()]()
 		elif type(activation) == Activation:
@@ -41,10 +43,6 @@ class Layer(object):
 
 
 
-
-"""
-	Provide Modules
-"""
 from deepend.layers.dropout import Dropout
 from deepend.layers.dense_layer import Dense
 from deepend.layers.convolution import Conv2D

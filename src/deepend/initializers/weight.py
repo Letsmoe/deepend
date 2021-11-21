@@ -24,7 +24,7 @@ class GlorotNormal(Initializer):
 	def construct(self, shape):
 		"""Xavier (Glorot) initialization from a random normal distribution filling the initialization tensor with values sampled from ${\cal N}(0,std^2)$ where
 		$$
-			std = gain * \sqrt{\dfrac{2}{fan\_{in}+fan\_{out}}}
+			std = gain * \sqrt{\dfrac{2}{fan_{in}+fan_{out}}}
 		$$
 
 		Args:

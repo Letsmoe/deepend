@@ -99,7 +99,8 @@ def mae(actual: np.ndarray, predicted: np.ndarray):
     return np.mean(np.abs(_error(actual, predicted)))
 
 
-mad = mae  # Mean Absolute Deviation (it is the same as MAE)
+mad = mae  
+"""Mean Absolute Deviation (it is the same as MAE)"""
 
 
 def gmae(actual: np.ndarray, predicted: np.ndarray):
@@ -255,6 +256,7 @@ def mda(actual: np.ndarray, predicted: np.ndarray):
     return np.mean((np.sign(actual[1:] - actual[:-1]) == np.sign(predicted[1:] - predicted[:-1])).astype(int))
 
 
+"""Exports all Metrics into a dictionary to allow for easy access via strings"""
 METRICS = {
     'mse': mse,
     'rmse': rmse,
