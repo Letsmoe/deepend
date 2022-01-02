@@ -152,7 +152,6 @@ class Model(object):
 				# Perform backward pass
 				self.backward(output, batch_y)
 				output = np.argmax(output, axis=1)
-				print(output)
 				# Optimize (update parameters)
 				self.optimizer.pre_update_params()
 				for layer in self.trainable_layers:
